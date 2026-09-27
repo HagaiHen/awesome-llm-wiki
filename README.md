@@ -136,6 +136,10 @@ Inspired by a paradigm shift in software development engineering, this architect
 
 *Deep technical comparisons, comparative benchmarks, and evaluations of compiled memory systems against standard vector RAG pipelines.*
 
+- [Agentic Memory Index (Verging Labs)](https://verginglabs.com/) - An independent benchmark and comparative evaluation
+  suite testing 12 agent memory architectures (including Karpathy Wiki, GBrain, Cognee, and Mem0) across 56 working
+  sessions. Evaluates direct recall, cross-conversation synthesis, temporal reasoning, conflicting facts, and erasure,
+  measuring the accuracy, answer speed, and token cost trade-offs of compiled markdown vaults against vector memory.
 - [Andrej Karpathy Killed RAG. Or Did He? The LLM Wiki Pattern (Mandar Karhade)](https://pub.towardsai.net/andrej-karpathy-killed-rag-or-did-he-the-llm-wiki-pattern-7824d876e790) - An architectural analysis comparing traditional vector RAG pipelines against the compiled, static LLM Wiki pattern.
 - [Better Models Won’t Save Your Agent (Pinecone Blog)](https://www.pinecone.io/blog/introducing-nexus-knowledge-engine/) - A technical analysis on why vector search loops fail for agents, advocating for a pre-compiled context engineering layer.
 - [Beyond RAG: How Andrej Karpathy's LLM Wiki Pattern Builds Knowledge That Actually Compounds (Plaban Nayak in Level Up Coding)](https://levelup.gitconnected.com/beyond-rag-how-andrej-karpathys-llm-wiki-pattern-builds-knowledge-that-actually-compounds-31a08528665e) - A conceptual breakdown of the compilation loop model in LLM Wikis. Explains why stateless RAG pipelines fail to accumulate learning over time, comparing vector search to an "amnesic assistant" and detailing the three-layer layout (raw, wiki, schema) required to support self-maintaining agent knowledge bases.
