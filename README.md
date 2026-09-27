@@ -388,6 +388,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   typed markdown pages (Concepts, Entities, Comparisons, Overviews) with an interactive 3D knowledge graph, two-pass
   linting, and support for both OpenRouter frontier models and local Ollama instances.
 - [LLM Wiki (Nash Su)](https://github.com/nashsu/llm_wiki) - A cross-platform Tauri desktop application that turns multi-format documents into interlinked markdown vaults, featuring two-step chain-of-thought ingestion, interactive Louvain community graphs, and an async human-in-the-loop review system.
+- [llm-wiki-manager (dotdrelle)](https://github.com/dotdrelle/llm-wiki-manager) ([npm](https://www.npmjs.com/package/@dotdrelle/wiki-manager)) - An orchestration
+  cockpit and agentic shell for managing isolated LLM-wiki workspaces. Combines a local web console (browsable wiki,
+  dependency graphs, and grounded chat) with a terminal UI (donna shell), multi-workspace service isolation,
+  approval-gated capability dispatching, and Model Context Protocol (MCP) tool routing.
 - [localmd](https://localmd.app/) ([GitHub](https://github.com/whitefoxx/localmd)) - An open-source, local-first web
   application and agentic workbench operating directly on local folders via the File System Access API. Features an
   integrated agent that compiles and edits Markdown wiki notes with `[[wikilinks]]`, force-directed graph visualization,
