@@ -483,6 +483,11 @@ Inspired by a paradigm shift in software development engineering, this architect
   CLI compiler (succeeded by Synto) that parses Markdown notes using Ollama to extract entities and automatically
   compile interlinked Obsidian concept wikis.
 - [Oh My Wiki](https://pypi.org/project/oh-my-wiki/) - A local-first Python package and CLI utility implementing an interactive management layer for Karpathy-style markdown vaults. It pairs a multi-vault SQLite registry with an interactive Socratic terminal wizard that prompts users to evaluate, refine, or reject agentic knowledge extractions before they are written to disk, preventing unstructured data corruption.
+- [OKF Harness (pumblus)](https://github.com/pumblus/okf-harness) ([Website](https://okf-harness.dev/)) - An
+  agent-first, local-first, terminal-native harness for maintaining OKF-compatible LLM Wikis. Registers raw sources
+  under `raw/sources/`, produces ingest plans, and compiles synthesized Markdown pages under `wiki/` with byte-level
+  citation verification, exposing deterministic commands (`okfh evidence`, `okfh check`, `okfh graph`) to agents
+  alongside self-contained local HTML graph reports.
 - [Open Knowledge CLI](https://github.com/openknowledge-sh/openknowledge) ([Website](https://openknowledge.sh)) - An open-source CLI, daemon, and isolated Docker runtime
   implementing the OKF v0.1 spec for self-maintaining repositories.
 - [Patina](https://github.com/soyrochus/patina) ([Deep Dive](https://www.linkedin.com/pulse/patina-turning-karpathys-llm-wiki-pattern-rust-cli-van-der-kleijn-hjm4e/)) - A high-performance, single-binary Rust CLI tool explicitly designed around the Karpathy LLM Wiki pattern. It utilizes memory-mapped reads to parse local markdown directories and extract frontmatter metadata, compiling deterministic in-memory connection graphs with zero heavy database sidecars.
