@@ -728,6 +728,10 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [LLM Wiki (Ian Forster)](https://blog.imfsoftware.com/llm-wiki/docs/) - A live, self-compiling implementation of the LLM Wiki pattern focused on mapping the agentic AI landscape, containing synthesized concepts, framework comparisons, cost optimization guides, and multi-agent orchestration analyses.
 - [LLM Wiki (Pratiyush)](https://pratiyush.github.io/llm-wiki/) ([GitHub](https://github.com/Pratiyush/llm-wiki)) - A live demo of a local knowledge base compiled from agent sessions, showcasing heatmaps, comparisons, and tool charts.
 - [LlmWikis.org](https://llmwikis.org/) - A public handbook and interactive toolkit for building and governing LLM Wikis, featuring a step-by-step setup wizard, starter template bundles, schema definitions, and trust-label specifications.
+- [Open Knowledge Format for Crossplane v2 (jkroepke)](https://jkroepke.github.io/okf-crossplane-v2/) ([GitHub](https://github.com/jkroepke/okf-crossplane-v2)) - A structured
+  knowledge catalog and reference bundle for the Crossplane v2 ecosystem using Open Knowledge Format v0.2 (OKF).
+  Maps concepts, APIs, providers, and composition functions into source-backed Markdown documents with OKF metadata,
+  featuring an interactive Cytoscape knowledge graph, companion agent skills, and a DuckDB-backed HTTP MCP server.
 - [Security KB (99helpers)](https://99helpers.com/wiki/security-kb) - A live cybersecurity knowledge wiki compiled from 11 industry security sources (MITRE ATT&CK, MITRE D3FEND, NIST CSF 2.0, CIS Controls v8). Features 33 interlinked topic summaries, deep dives, and entity pages alongside an interactive knowledge graph visualization and grounded Q&A search assistant.
 
 ## Research and Papers
