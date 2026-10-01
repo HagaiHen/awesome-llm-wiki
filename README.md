@@ -671,6 +671,10 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [Second Brain (NicholasSpisak)](https://github.com/NicholasSpisak/second-brain) - An open-source agent skill suite installable via the agent-skills standard, featuring a guided vault setup wizard, automated raw document compiler, query utility with qmd search integration, and consistency check linter.
 - [sniperunder123/okf-knowledge](https://github.com/sniperunder123/okf-knowledge) - A portable Claude Code skill and validation suite to initialize, query, lint, and visualize OKF bundles.
 - [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) ([npm](https://www.npmjs.com/package/@tencentdb-agent-memory/memory-tencentdb)) - A layered memory engine and plugin for OpenClaw and Hermes that unifies SQLite storage with human-readable markdown layers. Implements an L0–L3 semantic memory pyramid (conversation logs, atomic facts, scenario blocks, user personas) alongside symbolic short-term memory that offloads tool traces to external files and injects compact Mermaid graphs.
+- [ThinkWiki (wzdavid)](https://github.com/wzdavid/ThinkWiki) - An agent-native local knowledge base skill conforming
+  to the Agent Skills standard for Claude Code, OpenClaw, Trae, and Hermes Agent. Turns scattered documents, web pages,
+  and notes into a durable Markdown workspace through conversational prompts, featuring inbox review staging, an
+  interactive content knowledge graph, entity merge governance, and a local HTML browser workspace.
 - [VitaeContext](https://vitaecontext.github.io/) ([GitHub](https://github.com/vitaecontext/vitaecontext)) - An open-source
   agent skill suite, CLI, and stateless MCP server that turns raw career materials into private, evidence-bounded
   Markdown knowledge bases. Features the VitaeGraph format to compile hierarchical records (projects, roles, degrees)
