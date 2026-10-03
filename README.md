@@ -743,6 +743,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   machine-readable JSON blocks, cross-linked markdown notes with source citations in `SOURCES.md`, an operating manual
   in `AGENTS.md` and `CLAUDE.md`, a catalog in `INDEX.md`, and an append-only event log in `log.md`.
 - [Karpathy Wiki](https://karpathy-wiki.lol/en) - A live reference portal explaining and illustrating the Karpathy LLM Wiki pattern, featuring structured documentation directories, RAG-vs-wiki comparison matrices, and detailed tool guides.
+- [Learned (tieubao)](https://github.com/tieubao/til) - An open-source personal knowledge base and Obsidian reference
+  vault implementing the Karpathy LLM Wiki pattern and Zettelkasten methodology. Organizes ~500 atomic, interlinked
+  concept notes across 40+ technical domains with raw clipper captures (`_inbox/`), a master catalog (`index.md`), an
+  operations log (`log.md`), and Claude Code routines for compilation, synthesis, and vault health linting.
 - [LLM Wiki (Ian Forster)](https://blog.imfsoftware.com/llm-wiki/docs/) - A live, self-compiling implementation of the LLM Wiki pattern focused on mapping the agentic AI landscape, containing synthesized concepts, framework comparisons, cost optimization guides, and multi-agent orchestration analyses.
 - [LLM Wiki (Pratiyush)](https://pratiyush.github.io/llm-wiki/) ([GitHub](https://github.com/Pratiyush/llm-wiki)) - A live demo of a local knowledge base compiled from agent sessions, showcasing heatmaps, comparisons, and tool charts.
 - [LlmWikis.org](https://llmwikis.org/) - A public handbook and interactive toolkit for building and governing LLM Wikis, featuring a step-by-step setup wizard, starter template bundles, schema definitions, and trust-label specifications.
