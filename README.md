@@ -607,6 +607,11 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [Agent Wikis](https://agentwikis.com/) - A production-deployed knowledge platform built around the "Git as a database" flat-file pattern. It hosts public, human-readable wikis that anyone can browse for free to learn from, while serving the underlying raw markdown via MCP for autonomous agent ingestion. Features a closed-loop engine that tracks missed agent queries to fuel automated research and patching workflows behind human-gated commit approvals.
 - [AutoWiki (Factory)](https://factory.ai/news/wiki) - An enterprise-grade codebase wiki compilation platform that automatically generates structured Markdown wikis from repositories and syncs them to Git-backed wikis.
 - [Basic Memory](https://basicmemory.com/) ([GitHub](https://github.com/basicmachines-co/basic-memory)) - A cloud-hosted (SaaS) or local-first (AGPL-3.0) persistent memory platform and MCP server. Syncs Obsidian-compatible Markdown files across web, mobile, and IDEs, utilizing SQLite/Neon PostgreSQL and Milvus backends to provide hybrid semantic search, cross-encoder reranking, and official plugins for Claude Code, Hermes, and OpenClaw.
+- [Dexio](https://dexio.wiki/) ([GitHub](https://github.com/dexio-wiki/dexio)) - A hosted and self-hostable
+  (AGPL-3.0) wiki that several agents share over MCP from any machine. Agents search, read, write and edit Markdown
+  pages with wikilinks and YAML frontmatter, and a write can require the version the agent last read so concurrent
+  agents do not overwrite each other. A web app shows the link graph, every page and its history, with the agent
+  behind each change. Plugins for Hermes Agent, OpenClaw and Cursor.
 - [Graphite Atlas](https://graphiteatlas.com/) ([Docs](https://docs.graphiteatlas.com/) / [Skills](https://github.com/graphiteatlas/atlas-skills)) - An operational
   intelligence and business knowledge graph platform adapting Karpathy's LLM Wiki pattern to a typed property graph.
   Uses an LLM compilation engine (Navigator) to extract points and paths from raw business documents into a Minimum
