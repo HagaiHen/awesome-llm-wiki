@@ -388,6 +388,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   typed markdown pages (Concepts, Entities, Comparisons, Overviews) with an interactive 3D knowledge graph, two-pass
   linting, and support for both OpenRouter frontier models and local Ollama instances.
 - [LLM Wiki (Nash Su)](https://github.com/nashsu/llm_wiki) - A cross-platform Tauri desktop application that turns multi-format documents into interlinked markdown vaults, featuring two-step chain-of-thought ingestion, interactive Louvain community graphs, and an async human-in-the-loop review system.
+- [LLM Wiki System (ai-biz-app)](https://github.com/ai-biz-app/llm-wiki-system) - A local-first web application and
+  FastAPI platform implementing Karpathy's LLM Wiki pattern with a vanilla JS SPA. Synthesizes URLs and multi-format
+  documents into structured concept, entity, and analysis pages in an Obsidian-compatible vault, featuring full-text
+  search, an asynchronous file queue, and a D3.js knowledge graph powered by Graphify with 3-tier confidence scoring.
 - [llm-wiki-manager (dotdrelle)](https://github.com/dotdrelle/llm-wiki-manager) ([npm](https://www.npmjs.com/package/@dotdrelle/wiki-manager)) - An orchestration
   cockpit and agentic shell for managing isolated LLM-wiki workspaces. Combines a local web console (browsable wiki,
   dependency graphs, and grounded chat) with a terminal UI (donna shell), multi-workspace service isolation,
