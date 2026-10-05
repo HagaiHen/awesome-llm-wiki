@@ -201,6 +201,11 @@ Inspired by a paradigm shift in software development engineering, this architect
   Details access governance via scoped directory permissions, read-only external mounts (Google Drive, Notion),
   background cron maintenance loops, and agent-generated adaptive HTML interfaces using Cabinet.
 - [Karpathy's LLM Wiki v2: What to Keep](https://theaioperator.io/p/karpathys-llm-wiki-v2-what-to-keep) - A critical architectural teardown outlining the evolution of the LLM Wiki design pattern. Details the necessary shift from manual workflows to parallel background agent pipelines, explains how to replace heavy index rewrites with vector mapping arrays, and demonstrates how to implement a targeted JSON pre-routing layer to keep API context costs minimal as local vaults grow past thousands of nodes.
+- [LLM Wiki: Karpathy's Pattern, Built for a Paying Client (Adam Sandler on The Viable Edge)](https://www.viableedge.com/blog/llm-wiki) - An
+  architectural guide exploring how to adapt Karpathy's LLM Wiki pattern and Claude Code for client delivery. Details
+  four key shifts for enterprise company brains: resolving conflicting client sources with provenance precedence rules,
+  treating the schema as a contract, converting linting into structured retrieval test scorecards, and establishing
+  autonomous handoff routines.
 - [LLM Wiki: The Self-Updating AI Knowledge Base (Tericsoft Blog)](https://www.tericsoft.com/blogs/llm-wiki) - A conceptual primer analyzing the scaling of the LLM Wiki pattern to enterprise teams, detailing the compute cost tradeoffs (compile-time vs. query-time RAG), scheduled linting loops, access governance, version control integration, and agent memory architectures.
 - [Reimagining Karpathy's LLM Knowledge Base for enterprise teams (Christophe Pasquier on X)](https://x.com/Christophepas/status/2049855798226907502) - An architectural essay examining the requirements for adapting Karpathy's personal LLM knowledge base pattern to enterprise organizations, detailing multi-source automated ingestion, factual verification layers, and self-healing staleness detection.
 - [Scale Karpathy's LLM Wiki with a Lightweight Graph (Zach Blumenfeld on Neo4j Blog)](https://neo4j.com/blog/agentic-ai/scaling-karpathy-llm-wiki-graph/) - An
