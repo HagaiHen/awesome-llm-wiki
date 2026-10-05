@@ -118,6 +118,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   "biography of understanding" rather than a database, suggesting that humans must retain responsibility for weighing
   ideas and tracking perspective changes.
 - [The Real Second Brain: An Autonomous Knowledge Engine](https://vasileioszografos.substack.com/p/the-real-second-brain-an-autonomous) - An architectural essay defining the paradigm shift from ephemeral chat interfaces to persistent, agent-driven local wikis. It details how flat-file markdown vaults serve as a deterministic long-term memory layer for autonomous daemons, allowing collaborative, human-in-the-loop knowledge compilation and state management.
+- [The Schema Is the Product: An Architectural Reading of Karpathy's LLM Wiki (Han Heloir Yan on Data Science Collective)](https://medium.com/data-science-collective/the-schema-is-the-product-an-architectural-reading-of-karpathys-llm-wiki-abf2fbb838c8) - An
+  architectural analysis mapping the LLM Wiki pattern to a compiler architecture: raw sources as source code, ingestion
+  as compilation, markdown as intermediate representation, querying as linking, and linting as optimization. Critiques
+  static knowledge assumptions and explores lifecycle mechanics like confidence decay and supersession chains.
 - [The State of Agent Wikis (Mem0 Blog on X)](https://x.com/mem0ai/status/2079585032587694582) - An overview by the Mem0 team analyzing the emerging landscape of model-maintained markdown vaults.
 - [The State of the Nation in LLM Knowledge Bases (David R. Oliver on Medium)](https://medium.com/@davidroliver/the-state-of-the-nation-in-llm-knowledge-bases-0d5417b23940) - An essay
   examining the evolving landscape of LLM knowledge bases through Niklas Luhmann's Zettelkasten analogy. Highlights
