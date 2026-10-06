@@ -388,6 +388,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   knowledge workspace that implements Karpathy's compilation loop, featuring git-backed auto-commits, scheduled agent
   automation cron-jobs, an integrated browser terminal, and embedded HTML application injection.
 - [CartaStudio](https://cartastudio.ai/) - A desktop workbench for constructing typed, scoped, and source-grounded decision graphs in portable Markdown. Structures organizational expertise into verifiable knowledge nodes with strict citation tracing, providing deterministic, high-trust context for AI agent workflows.
+- [Curated Thoughts (equationalapplications)](https://github.com/equationalapplications/curated-thoughts) - A
+  local-first desktop second brain built with Tauri, React, and Rust implementing Karpathy's LLM Wiki pattern.
+  Separates immutable sources from a synthesized semantic wiki (`wiki/`) managed by an Active Librarian engine,
+  featuring a human-in-the-loop review queue, OKF bundle import/export, a headless CLI (`ct`), and a local MCP server.
 - [DeepWiki-Open (Grok-Wiki)](https://github.com/AsyncFuncAI/deepwiki-open) ([Website](https://grok-wiki.com/)) - An open-source documentation engine and desktop client compiling codebases into
   interactive Markdown wikis, generating Mermaid diagrams and Q&amp;A indexes with local/remote LLM support.
 - [jp-lorenc1o/Eva-brain](https://github.com/jp-lorenc1o/Eva-brain) ([Website](https://jp-lorenc1o.github.io/Eva-brain/)) - A local-first macOS desktop client and MCP server for building and browsing personal markdown knowledge vaults.
