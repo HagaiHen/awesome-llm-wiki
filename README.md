@@ -749,6 +749,10 @@ Inspired by a paradigm shift in software development engineering, this architect
   Obsidian vault template for Claude Code and Codex. Combines an agent-maintained LLM wiki with code knowledge graphs
   (graphify), an evolving roadmap that triages incoming meetings and videos, a 20+ skill toolkit, and a relay baton
   for seamless multi-agent handoffs.
+- [second-brain-template (mohitagw15856)](https://github.com/mohitagw15856/second-brain-template) - An Obsidian vault
+  starter template and schema implementing Karpathy's LLM Wiki pattern with a Telegram bot capture layer. Features
+  structured directory boundaries (inbox, raw, wiki, life, daily), automated Claude Code maintenance workflows
+  (`/ingest`, `/query`, `/lint`), Dataview-compatible trackers, and continuous Git versioning.
 - [sturlese/hippocampus](https://github.com/sturlese/hippocampus) - A zero-dependency personal knowledge base template built for Claude Code using the Open Knowledge Format (OKF).
 - [The PM Wiki (AliMahmoud15486)](https://github.com/AliMahmoud15486/pm-llm-wiki) - A system schema and ruleset template that teaches coding agents how to compile and maintain product management wikis.
 - [Verified Memory Vault (secondbrainstarter)](https://github.com/secondbrainstarter/verified-memory-vault) - A self-checking Obsidian vault for AI coding agents. Persistent memory (CLAUDE.md boot file, append-only MEMORY.md, daily notes) with two dependency-free Python tools: `memory_check.py` scores memory health (dated entries, duplicates, dead wikilinks, context-window bloat, inbox pressure) and an optional Git pre-commit hook refuses mass deletions or MEMORY.md history rewrites — protecting the wiki from accidental destruction by the agent itself.
